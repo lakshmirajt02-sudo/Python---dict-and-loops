@@ -63,3 +63,9 @@ print("Blastoff!")
 #    else:
 #       odd = odd + i
 # print(f"Sum of even numbers is {even} and sum of odd numbers is {odd}")
+
+num  = [10, 2, 3, 4, 5]
+sum = 0
+for i in range(len(num)):
+   sum += num[i]
+print(sum)
